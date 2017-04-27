@@ -12,9 +12,9 @@ il database è cosi organizzato:
 <img src = "https://github.com/pigreco/test_plugin_selectbyrelationship/blob/master/database.jpg" width =300>
 
 ## RELAZIONI:
-+ PADRE: `pti_pill` FIGLIO: tabella_arm : ogni lampione puo' avere più lampade cioè più armature;
-+ PADRE: `pti_quadri` FIGLIO: pti_pill : ogni quadro alimenta più lampioni;
-+ PADRE: `plg_aree_quadri` FIGLIO: pti_pill : ogni area delimita i lampioni che sono alimentati dal quadro;
++ PADRE: `pti_pill` FIGLIO: `tabella_arm` : ogni lampione puo' avere più lampade cioè più armature;
++ PADRE: `pti_quadri` FIGLIO: `pti_pill` : ogni quadro alimenta più lampioni;
++ PADRE: `plg_aree_quadri` FIGLIO: `pti_pill` : ogni area delimita i lampioni che sono alimentati dal quadro;
 
 <img src = "https://github.com/pigreco/test_plugin_selectbyrelationship/blob/master/N4.jpg" width =700>
 
