@@ -1,0 +1,2 @@
+# test_plugin_selectbyrelationship
+test sul plugin sperimentale selectbyrelationship
